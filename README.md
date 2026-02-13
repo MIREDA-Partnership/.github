@@ -1,6 +1,6 @@
 # MIREDA Partnership
 
-![MIREDA Logo](./assets/mireda-logo.png)
+![MIREDA Logo](./assets/mireda-logo.jpg)
 
 ## Mother and Infant Research Electronic Data Analysis (MIREDA)
 
