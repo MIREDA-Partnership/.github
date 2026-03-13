@@ -37,12 +37,13 @@ This GitHub organisation provides open technical resources developed by the MIRE
 
 ### 1. OMOP Mapping Resources
 - Standardised mapping specifications
-- Carrot Mapper JSON files
+- Carrot Mapper csv files
 - Metadata and vocabulary mapping examples
 - Cohort-specific and harmonised mappings
 
-### 2. ETL and Transformation Code
-- Scripts for data extraction, transformation, and loading
+### 2. Transformation Post-Processing
+While transformation to OMOP CDM was processed using the carrot-transform tool, where additional code has been required
+to create unsupported domain tables or amend mapped data, theseScripts will be found here as:
 - Post-processing and quality-assurance scripts
 - Helper tools for handling OMOP limitations
 
@@ -54,8 +55,6 @@ This GitHub organisation provides open technical resources developed by the MIRE
 ### 4. Documentation and Methods
 - Technical documentation
 - Harmonisation decisions
-- Data structure guidance
-- Known issues and solutions
 
 ### 5. Troubleshooting and Common Issues
 - OMOP pregnancy modelling approaches
@@ -78,6 +77,8 @@ Data are not held centrally. Each cohort:
 - Requires separate access approval
 
 Federated analysis enables the same code to run across all sites without moving sensitive data.
+
+Work is currently underway to pilot a federated platform held within the SAIL Databank.
 
 ---
 
