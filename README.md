@@ -37,12 +37,14 @@ This GitHub organisation provides open technical resources developed by the MIRE
 
 ### 1. OMOP Mapping Resources
 - Standardised mapping specifications
-- Carrot Mapper JSON files
+- Carrot Mapper csv files
 - Metadata and vocabulary mapping examples
 - Cohort-specific and harmonised mappings
 
 ### 2. ETL and Transformation Code
-- Scripts for data extraction, transformation, and loading
+While most transformation to OMOP CDM was processed using the carrot-transform software, additional post-processing
+scripts for the purpose of creating unsupported domain tables and remedying limitations of the software will be
+found here.
 - Post-processing and quality-assurance scripts
 - Helper tools for handling OMOP limitations
 
@@ -55,7 +57,6 @@ This GitHub organisation provides open technical resources developed by the MIRE
 - Technical documentation
 - Harmonisation decisions
 - Data structure guidance
-- Known issues and solutions
 
 ### 5. Troubleshooting and Common Issues
 - OMOP pregnancy modelling approaches
