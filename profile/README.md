@@ -10,6 +10,8 @@ The partnership brings together major maternal and child health datasets from En
 
 Together, the harmonised cohorts represent over 18 million births, enabling research into rare exposures, policy impacts, and long-term health outcomes across the life course.
 
+Our preprint Data Descriptor is here: https://doi.org/10.64898/2026.03.23.26349078 .
+
 ---
 
 ## About the Project
