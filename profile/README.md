@@ -10,8 +10,10 @@ The partnership brings together major maternal and child health datasets from En
 
 Together, the harmonised cohorts represent over 18 million births, enabling research into rare exposures, policy impacts, and long-term health outcomes across the life course.
 
-Our preprint Data Descriptor is here: https://doi.org/10.64898/2026.03.23.26349078 .
-
+Visit our:
+- Preprint [Data Resource Profile](https://doi.org/10.64898/2026.03.23.26349078).
+- [Protocol paper](https://ijpds.org/index.php/ijpds/article/view/2406)
+- [Continuously updated, detailed protocol](https://dx.doi.org/10.17504/protocols.io.36wgq2b3ogk5/v1) - *Not yet available*
 ---
 
 ## About the Project
@@ -37,40 +39,26 @@ Each cohort remains within its own secure TRE, but harmonisation into OMOP enabl
 
 This GitHub organisation provides open technical resources developed by the MIREDA partnership, including:
 
-### 1. OMOP Mapping Resources
-- Standardised mapping specifications
-- Carrot Mapper csv files
-- Metadata and vocabulary mapping examples
-- Cohort-specific and harmonised mappings
+###
 
-### 2. Transformation Post-Processing
-While transformation to OMOP CDM was processed using the carrot-transform tool, where additional code has been required
-to create unsupported domain tables or amend mapped data, theseScripts will be found here as:
-- Post-processing and quality-assurance scripts
-- Helper tools for handling OMOP limitations
+### 1. ETL Scripts
+- Scripts used to run the tools MIREDA employed in their ETL processes.
+- Scripts which may have been needed for pre- or post-processing in order to circumvent any limitations in the methods/tools used.
 
-### 3. Analytical Methods
-- Reproducible study pipelines
-- Example federated analyses
-- Cohort-comparable study definitions
+### 2. OMOP Mappings
+- Contains a subdirectory for each birth cohort in MIREDA.
+- Each subdirectory contains JSON and CSV files which outline the mapping rules used by each cohort for their OMOP transformation.
 
-### 4. Documentation and Methods
-- Technical documentation
-- Harmonisation decisions
-
-### 5. Troubleshooting and Common Issues
-- OMOP pregnancy modelling approaches
-- Mother–infant linkage solutions
-- Vocabulary mapping challenges
-- Practical solutions from real-world cohort harmonisation
+### 3. Analysis Scripts
+- A place for our MIREDA analysts to share any useful or common analysis scripts that process the MIREDA OMOP CDM data.
 
 ---
 
 ## Accessing the Data
 
-The harmonised MIREDA datasets are accessed through the **Health Data Research UK Gateway**:
+The metadata for the harmonised MIREDA datasets are summarised the **Health Data Research UK Gateway**:
 
-https://healthdatagateway.org/en/collection/119
+[https://healthdatagateway.org/en/collection/119](https://healthdatagateway.org/en/collection/119)
 
 Data are not held centrally. Each cohort:
 
@@ -96,8 +84,7 @@ Work is currently underway to pilot a federated platform held within the SAIL Da
    - Mother–infant linkage methods
    - Harmonisation decisions
 
-3. Apply for data access through the HDR UK Gateway if you wish to run analyses.
-
+3. Contact us to apply to work with our data and discuss ideas at [mireda@jiscmail.ac.uk](mailto::mireda@jiscmail.ac.uk).
 ---
 
 ## Citation
@@ -114,11 +101,6 @@ Seaborne et al.
 
 Funded by the **UK Medical Research Council (MRC)**  
 Partnership Grant: **MR/X02055X/1**
-
-Additional support from:
-
-- Health Data Research UK
-- NIHR Birmingham Biomedical Research Centre
 
 ---
 
