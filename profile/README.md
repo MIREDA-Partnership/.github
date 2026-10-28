@@ -52,6 +52,9 @@ This GitHub organisation provides open technical resources developed by the MIRE
 ### 3. Analysis Scripts
 - A place for our MIREDA analysts to share any useful or common analysis scripts that process the MIREDA OMOP CDM data.
 
+### Projects using MIREDA
+- Other repositories within the MIREDA organisation reflect other projects we are involved with using the MIREDA data resource.
+- These are also outlined in the **Projects** section above.
 ---
 
 ## Accessing the Data
